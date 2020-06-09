@@ -1,22 +1,24 @@
 /* TEXT STYLES */
 p {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Can I merge p with a? */
 a {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: underline;
 }
 
 h1 {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
-    font-weight: 100;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    margin-block-end: 0.3em;
 }
 
 h2 {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
     margin-block-end: 0.25em;
 }
@@ -29,9 +31,13 @@ body {
     align-items: center;
 }
 
-#title {}
+#title {
+}
 
-#menu {}
+#menu {
+    padding-bottom: 1em;
+    text-align: center;
+}
 
 #active {
     font-weight: bold;
@@ -54,5 +60,8 @@ body {
 /* SPECIAL */
 #profile {
     text-align: center;
-    padding-top: 1em;
+}
+
+img {
+    outline: solid black 5px;
 }
